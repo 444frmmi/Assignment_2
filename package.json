@@ -1,12 +1,13 @@
 {
-  "engines": {
-    "node": "18.x"
-  },
   "name": "assignment-2-frontend",
   "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
