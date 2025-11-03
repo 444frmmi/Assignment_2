@@ -5,7 +5,6 @@
 สร้างด้วย **React + Vite** และเชื่อมต่อกับ API จาก **Assignment 1 (Backend)**  
 เพื่อแสดงข้อมูลสถานะโดรน, บันทึกอุณหภูมิ, และดูประวัติการบันทึกแบบเรียลไทม์  
 
----
 
 ## Features
 -  แสดงการตั้งค่า (Config) ของโดรนจาก Backend  
@@ -16,7 +15,6 @@
 -  Redirect อัตโนมัติหลังจากเพิ่ม Log เสร็จ  
 -  Deploy บน Render (Frontend + Backend)
 
----
 
 ## Tech Stack
 | ประเภท | รายละเอียด |
@@ -27,7 +25,6 @@
 | Data Fetching | Fetch API |
 | Deployment | Render.com |
 
----
 
 ## Deployment URLs
 | ส่วนประกอบ | URL |
@@ -35,7 +32,6 @@
 | **Frontend (Assignment 2)** | 🔗 [https://assignment-2-frontend-71sr.onrender.com](https://assignment-2-frontend-71sr.onrender.com) |
 | **Backend (Assignment 1)** | 🔗 [https://assignment-1-1-1mvy.onrender.com](https://assignment-1-1-1mvy.onrender.com) |
 
----
 
 ## Environment Variables (.env)
 
