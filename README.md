@@ -1,33 +1,44 @@
-# Assignment 2 - Frontend (Vite + React + Tailwind)
+#  Assignment 2 
 
-## Setup
+## Description
+เว็บแอปพลิเคชันส่วนหน้า (Frontend) สำหรับตรวจสอบและจัดการข้อมูลโดรน  
+สร้างด้วย **React + Vite** และเชื่อมต่อกับ API จาก **Assignment 1 (Backend)**  
+เพื่อแสดงข้อมูลสถานะโดรน, บันทึกอุณหภูมิ, และดูประวัติการบันทึกแบบเรียลไทม์  
 
-1. Rename `.env.example` to `.env` and (optionally) edit:
-```
+---
+
+## Features
+-  แสดงการตั้งค่า (Config) ของโดรนจาก Backend  
+-  แสดงสถานะอุณหภูมิปัจจุบัน  
+-  เพิ่มข้อมูล Log ใหม่ (ประเทศ / อุณหภูมิ)  
+-  ตารางแสดง Log พร้อมระบบแบ่งหน้า (Pagination)  
+-  ออกแบบหน้าเว็บด้วย Tailwind CSS  
+-  Redirect อัตโนมัติหลังจากเพิ่ม Log เสร็จ  
+-  Deploy บน Render (Frontend + Backend)
+
+---
+
+## Tech Stack
+| ประเภท | รายละเอียด |
+|---------|-------------|
+| Frontend | React + Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router DOM |
+| Data Fetching | Fetch API |
+| Deployment | Render.com |
+
+---
+
+## Deployment URLs
+| ส่วนประกอบ | URL |
+|--------------|-----|
+| **Frontend (Assignment 2)** | 🔗 [https://assignment-2-frontend-71sr.onrender.com](https://assignment-2-frontend-71sr.onrender.com) |
+| **Backend (Assignment 1)** | 🔗 [https://assignment-1-1-1mvy.onrender.com](https://assignment-1-1-1mvy.onrender.com) |
+
+---
+
+## Environment Variables (.env)
+
+```env
 VITE_API_BASE_URL=https://assignment-1-1-1mvy.onrender.com
 VITE_DRONE_ID=66010262
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run dev server:
-```bash
-npm run dev
-# open http://localhost:5173
-```
-
-## Build
-```
-npm run build
-```
-
-## Notes
-- This project expects the backend API (Assignment 1) to be reachable at `VITE_API_BASE_URL` and to support:
-  - GET /configs/:droneId
-  - GET /status/:droneId
-  - GET /logs/:droneId
-  - POST /logs
-- If you see CORS errors, enable CORS on the backend or allow the frontend origin.
