@@ -34,23 +34,25 @@
 
 
 ## Environment Variables (.env)
+```bash
 VITE_API_BASE_URL=https://assignment-1-1-1mvy.onrender.com
 VITE_DRONE_ID=66010262
+```
 
 
 ## Local Development
 
 **Install dependencies**
-npm install
+```npm install```
 
 **Run Server**
-npm run dev
+```npm run dev```
 
 **Open Browser**
-http://localhost:5173
+```http://localhost:5173```
 
 **Build**
-npm run build
+```npm run build```
 
 
 
