@@ -51,7 +51,7 @@ export default function LogFormPage() {
 
   return (
     <section className="bg-white rounded-md shadow-md p-6">
-      <h1 className="text-2xl font-bold text-pink-400 mb-4">Add Temperature Log</h1>
+      <h1 className="text-3xl text-pink-400 mb-4"> ❀ Add Temperature Log ❀</h1>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

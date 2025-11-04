@@ -33,20 +33,20 @@ export default function LogsPage() {
 
   if (loading)
     return (
-      <div className="p-6 text-center text-gray-600 font-medium">
+      <div className="p-6 text-center text-white ">
         Loading logs...
       </div>
     );
   if (error)
     return (
-      <div className="p-6 text-center text-red-400 font-semibold">
+      <div className="p-6 text-center text-red-400 ">
         Error loading logs: {error}
       </div>
     );
 
   return (
     <div className="p-6 bg-gradient-to-b from-pink-50 via-purple-50 to-blue-50 max-w-6xl mx-auto">
-      <h2 className="text-2xl font-bold text-pink-400 mb-6 text-center">
+      <h2 className="text-3xl text-pink-400 mb-6 text-center">
         ❤︎ Drone Logs Dashboard ❤︎
       </h2>
 
@@ -70,8 +70,8 @@ export default function LogsPage() {
                   <tr
                     key={log._id || idx}
                     className={`border-b transition-colors duration-150 ${
-                      log.celsius > 40
-                        ? "bg-pink-100 text-gray-700"
+                      log.celsius > 200
+                        ? "bg-pink-100 text-gray-700 hover:bg-pink-100"
                         : "hover:bg-pink-50"
                     }`}
                   >
@@ -81,7 +81,7 @@ export default function LogsPage() {
                     <td className="p-3">{log.country}</td>
                     <td className="p-3">{log.drone_id}</td>
                     <td className="p-3">{log.drone_name}</td>
-                    <td className="p-3 font-semibold">{log.celsius}°C</td>
+                    <td className="p-3">{log.celsius}°C</td>
                   </tr>
                 ))}
               </tbody>

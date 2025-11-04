@@ -1,11 +1,31 @@
+/* ---------- ฟอนต์ Futura Condensed ---------- */
+@font-face {
+  font-family: "Futura Condensed";
+  src: url("/src/assets/fonts/futura-pt-demibold-589e43b852117.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Condensed";
+  src: url("/src/assets/fonts/futura-pt-bold-589e44b6aacd3.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Condensed";
+  src: url("/src/assets/fonts/futura-pt-medium-589e45b956de4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* ---------- Tailwind Core ---------- */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* ---------- Global Style ---------- */
 body {
-  @apply bg-gray-50 text-gray-800 font-[Inter];
+  @apply font-sans bg-gray-50 text-gray-800;
 }
-
-
-body { @apply bg-gray-50 text-gray-800; }
