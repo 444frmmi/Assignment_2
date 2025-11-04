@@ -44,19 +44,23 @@ VITE_DRONE_ID=66010262
 
 **Install dependencies**
 ```bash
-npm install```
+npm install
+```
 
 **Run Server**
 ```bash
-npm run dev```
+npm run dev
+```
 
 **Open Browser**
 ```bash
-http://localhost:5173```
+http://localhost:5173
+```
 
 **Build**
 ```bash
-npm run build```
+npm run build
+```
 
 
 
