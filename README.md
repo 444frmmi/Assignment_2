@@ -34,21 +34,22 @@
 
 
 ## Environment Variables (.env)
-
-```env
 VITE_API_BASE_URL=https://assignment-1-1-1mvy.onrender.com
 VITE_DRONE_ID=66010262
 
+
 ## Local Development
 
-```Install dependencies
+**Install dependencies**
 npm install
 
-```Run Server
+**Run Server**
 npm run dev
 
-```Open Browser
+**Open Browser**
 http://localhost:5173
 
-```Build
+**Build**
 npm run build
+
+66010262 ณัฐรัตน์ เรืองปิยะเสรี
